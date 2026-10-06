@@ -12,6 +12,10 @@ The project analyzes synthetic transaction-level data across **24 months (Januar
 
 > **Data disclosure:** VeyraPay is fictional, and the transaction dataset is synthetic. No real customer or payment records are represented.
 
+## 📊 Dashboard Preview
+
+![VeyraPay Digital Payments Analytics Dashboard](screenshots/dashboard.png)
+
 ## Business Problem
 
 Payment transaction data contains information about transaction value, payment methods, transaction outcomes, customers, merchants, geography, platforms, devices, processing time, and refunds. Without a unified analytical workflow, management cannot easily evaluate transaction performance, payment reliability, customer activity, refund exposure, regional performance, and platform behavior.
@@ -257,3 +261,10 @@ This project can be presented through GitHub, a resume, LinkedIn, and a data-ana
 ## License
 
 This project is intended for educational and portfolio demonstration purposes. The VeyraPay company, branding, and transaction dataset are fictional/synthetic.
+
+## 👤 Author
+
+**Mohammad Aatique Shaikh**  
+Software Developer | Data Analyst
+
+⭐ If you like this project, consider giving it a star!
