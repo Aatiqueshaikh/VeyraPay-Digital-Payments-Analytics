@@ -1,0 +1,81 @@
+# ==============================
+# VeyraPay — Git Ignore Rules
+# ==============================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- Jupyter ----------
+*.ipynb_checkpoints
+
+# ---------- Power BI ----------
+# Power BI backup / temporary files
+*.pbit
+*.pbix.bak
+*.tmp
+
+# Keep the final PBIX file tracked.
+# Do NOT ignore:
+# powerbi/VeyraPay_Digital_Payments_Analytics.pbix
+
+# ---------- Data / Generated Files ----------
+# Temporary exports and generated Excel lock files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Local/generated logs
+*.log
+
+# ---------- Operating System ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- Editors ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+
+# ---------- Secrets / Environment ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Credentials / Local Configuration ----------
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ---------- Temporary / Backup ----------
+*.bak
+*.backup
+*.swp
+*.swo
+
+# ---------- Build / Distribution ----------
+build/
+dist/
+*.egg-info/
+
+# ---------- Local SQL exports ----------
+*.sql.bak

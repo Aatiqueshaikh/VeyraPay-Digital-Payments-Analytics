@@ -1,0 +1,8 @@
+failure_reason,0
+Bank Declined,3002
+Insufficient Funds,2533
+Network Timeout,1938
+Authentication Failed,1698
+Payment Gateway Error,1413
+Limit Exceeded,834
+Technical Error,482
